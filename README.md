@@ -1,4 +1,4 @@
 CorpusBuilder
 =============
 
-Some Shell-Scripts and Matlab files to create the VIAT test corpus.  
+Create the VIAT test corpus with the help of some Shell-Scripts and Matlab files. Some Telephone Spam files are also included.   
