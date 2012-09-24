@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E2C4E4214D97BA800F1939D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C4E4114D97BA800F1939D /* main.cpp */; };
+		4E2C4E4414D97BA800F1939D /* RandomCallGenerator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E2C4E4314D97BA800F1939D /* RandomCallGenerator.1 */; };
+		4E2C4E5014D97BE700F1939D /* libboost_system-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C4E4E14D97BE700F1939D /* libboost_system-mt.dylib */; };
+		4E2C4E5114D97BE700F1939D /* libboost_thread-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C4E4F14D97BE700F1939D /* libboost_thread-mt.dylib */; };
+		4E2C4E5814D985C800F1939D /* libboost_random-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C4E5714D985C800F1939D /* libboost_random-mt.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E2C4E3B14D97BA800F1939D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4E2C4E4414D97BA800F1939D /* RandomCallGenerator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E2C4E3D14D97BA800F1939D /* RandomCallGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RandomCallGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2C4E4114D97BA800F1939D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4E2C4E4314D97BA800F1939D /* RandomCallGenerator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomCallGenerator.1; sourceTree = "<group>"; };
+		4E2C4E4E14D97BE700F1939D /* libboost_system-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_system-mt.dylib"; path = "usr/local/lib/libboost_system-mt.dylib"; sourceTree = SDKROOT; };
+		4E2C4E4F14D97BE700F1939D /* libboost_thread-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_thread-mt.dylib"; path = "usr/local/lib/libboost_thread-mt.dylib"; sourceTree = SDKROOT; };
+		4E2C4E5714D985C800F1939D /* libboost_random-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_random-mt.dylib"; path = "usr/local/lib/libboost_random-mt.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E2C4E3A14D97BA800F1939D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2C4E5814D985C800F1939D /* libboost_random-mt.dylib in Frameworks */,
+				4E2C4E5014D97BE700F1939D /* libboost_system-mt.dylib in Frameworks */,
+				4E2C4E5114D97BE700F1939D /* libboost_thread-mt.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2C4E3214D97BA800F1939D = {
+			isa = PBXGroup;
+			children = (
+				4E2C4E5214D97BEC00F1939D /* Frameworks */,
+				4E2C4E4014D97BA800F1939D /* RandomCallGenerator */,
+				4E2C4E3E14D97BA800F1939D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E2C4E3E14D97BA800F1939D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E2C4E3D14D97BA800F1939D /* RandomCallGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E2C4E4014D97BA800F1939D /* RandomCallGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				4E2C4E4114D97BA800F1939D /* main.cpp */,
+				4E2C4E4314D97BA800F1939D /* RandomCallGenerator.1 */,
+			);
+			path = RandomCallGenerator;
+			sourceTree = "<group>";
+		};
+		4E2C4E5214D97BEC00F1939D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E2C4E5714D985C800F1939D /* libboost_random-mt.dylib */,
+				4E2C4E4E14D97BE700F1939D /* libboost_system-mt.dylib */,
+				4E2C4E4F14D97BE700F1939D /* libboost_thread-mt.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E2C4E3C14D97BA800F1939D /* RandomCallGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E2C4E4714D97BA800F1939D /* Build configuration list for PBXNativeTarget "RandomCallGenerator" */;
+			buildPhases = (
+				4E2C4E3914D97BA800F1939D /* Sources */,
+				4E2C4E3A14D97BA800F1939D /* Frameworks */,
+				4E2C4E3B14D97BA800F1939D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomCallGenerator;
+			productName = RandomCallGenerator;
+			productReference = 4E2C4E3D14D97BA800F1939D /* RandomCallGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E2C4E3414D97BA800F1939D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Studio Gelantino";
+			};
+			buildConfigurationList = 4E2C4E3714D97BA800F1939D /* Build configuration list for PBXProject "RandomCallGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E2C4E3214D97BA800F1939D;
+			productRefGroup = 4E2C4E3E14D97BA800F1939D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E2C4E3C14D97BA800F1939D /* RandomCallGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E2C4E3914D97BA800F1939D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2C4E4214D97BA800F1939D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E2C4E4514D97BA800F1939D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E2C4E4614D97BA800F1939D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E2C4E4814D97BA800F1939D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E2C4E4914D97BA800F1939D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E2C4E3714D97BA800F1939D /* Build configuration list for PBXProject "RandomCallGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2C4E4514D97BA800F1939D /* Debug */,
+				4E2C4E4614D97BA800F1939D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E2C4E4714D97BA800F1939D /* Build configuration list for PBXNativeTarget "RandomCallGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2C4E4814D97BA800F1939D /* Debug */,
+				4E2C4E4914D97BA800F1939D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E2C4E3414D97BA800F1939D /* Project object */;
+}
