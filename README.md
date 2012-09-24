@@ -11,7 +11,7 @@ In order to test the robustness of the algorithm, the 20 SPAM files were intenti
 
 The alterations in detail are:
 
-   1. original
+   	1. original
   	2. G726 16 kbps
 	3. G726 32 kbps
   	4. GSM fullrate
@@ -24,19 +24,19 @@ The alterations in detail are:
 
 Naming Convention:
 
-SPIT_xx_extension.wav (e.g.: SPIT_04_gsm.wav)
+SPIT_xx_AlterationName.wav (e.g.: SPIT_04_gsm.wav)
 
-extensions are:
+possible alteration names are:
 
- gsm
- g726_16
- g726_32
- n20p
- n20w
- loss5
- loss10
- 32 kbps
- 96 kbps
+ 	gsm
+ 	g726_16
+ 	g726_32
+ 	n20p
+ 	n20w
+ 	loss5
+ 	loss10
+ 	32_kbps
+ 	96_kbps
  
  
  known issues:
